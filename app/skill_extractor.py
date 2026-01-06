@@ -1,6 +1,10 @@
 import spacy
+from pathlib import Path
 
-nlp = spacy.load("en_core_web_sm")
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "en_core_web_sm" / "en_core_web_sm-3.8.0"
+nlp = spacy.load(MODEL_PATH)
+
+# nlp = spacy.load("en_core_web_sm")
 
 # Curated skill list (extend anytime)
 SKILL_SET = {
@@ -58,4 +62,5 @@ def extract_skills(text: str) -> list:
 
     
 '''
+
 
