@@ -6,6 +6,4 @@ numpy<2
 sentence-transformers==2.6.1
 PyPDF2
 python-docx
-sentence-transformers==2.6.1
 transformers==4.40.2
-
