@@ -1,8 +1,12 @@
 streamlit
-spacy
+spacy==3.8.0
 scikit-learn
 pandas
-numpy
-sentence-transformers==2.2.2
+numpy<2
+sentence-transformers==2.6.1
 PyPDF2
 python-docx
+sentence-transformers==2.6.1
+transformers==4.40.2
+huggingface-hub==0.23.0
+torch==2.2.2
