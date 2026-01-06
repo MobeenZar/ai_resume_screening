@@ -1,0 +1,13 @@
+Jane Smith
+Data Scientist
+
+Experience:
+- 3 years experience in data analysis and predictive modeling
+- Experience with deep learning and neural networks
+- Hands-on experience with data visualization
+
+Skills:
+Python, Deep Learning, TensorFlow, Keras, Pandas, Matplotlib, SQL
+
+Education:
+Master's in Data Science

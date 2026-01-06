@@ -1,0 +1,10 @@
+
+docker build --no-cache -t ai-resume-screening .
+docker run -d -p 8501:8501 --name resume_app ai-resume-screening
+docker ps
+docker stop f33ebf8f0812
+
+streamlit run app/main.py
+
+docker builder prune -af
+docker system prune -af

@@ -1,0 +1,13 @@
+John Doe
+Senior Python Developer
+
+Experience:
+- 5 years of experience in Python development
+- Worked on machine learning and NLP projects
+- Built REST APIs using Flask and FastAPI
+
+Skills:
+Python, Machine Learning, NLP, Scikit-learn, Pandas, NumPy, SQL, Git
+
+Education:
+Bachelor of Computer Science

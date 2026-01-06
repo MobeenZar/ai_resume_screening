@@ -1,0 +1,13 @@
+Ali Khan
+Junior Machine Learning Engineer
+
+Experience:
+- 2 years experience in ML model development
+- Worked on classification and regression problems
+- Familiar with NLP techniques
+
+Skills:
+Python, Machine Learning, NLP, Scikit-learn, Git, Linux
+
+Education:
+Bachelor of Software Engineering
