@@ -1,19 +1,22 @@
 import re
 import spacy
 
-# from pathlib import Path
+from pathlib import Path
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "en_core_web_sm" / "en_core_web_sm-3.8.0"
+nlp = spacy.load(MODEL_PATH)
 
 # MODEL_PATH = Path(__file__).parent / "en_core_web_sm"
 # nlp = spacy.load(MODEL_PATH)
 
 # nlp = spacy.load("en_core_web_sm")
-
+'''
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
     from spacy.cli import download
     download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
+'''    
 
 def clean_text(text: str) -> str:
     text = text.lower()
@@ -29,3 +32,4 @@ def preprocess_text(text: str) -> str:
         if not token.is_stop and not token.is_punct
     ]
     return " ".join(tokens)
+
