@@ -1,10 +1,11 @@
+
 # ai_resume_screening
 Cap stone project for AtomCamp DS &amp; AI 
 
 📦 Create Virtual Environment & Install Dependencies
 
-python -m venv venv
-venv\Scripts\activate   # Windows 
+python -m venv venv 
+venv\Scripts\activate 
  
 pip install streamlit spacy scikit-learn pandas numpy \ 
            sentence-transformers PyPDF2 python-docx 
@@ -134,5 +135,7 @@ python -m app.test_matching_engine
  
  
  
+
+
 
 
