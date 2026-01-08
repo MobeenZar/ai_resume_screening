@@ -1,0 +1,19 @@
+
+
+python3 -m venv venv
+
+.\venv\Scripts\Activate.ps1
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+docker build --no-cache -t ai-resume-screening .
+docker tag ai-resume-screening:latest mobeenzar/ai-resume-screening:latest
+docker push mobeenzar/ai-resume-screening:latest
+
+--Run docker image from my docker hub repo
+docker run -d --name ai-resume-screening-app -p 8501:8501 mobeenzar/ai-resume-screening
+
+http://localhost:8501
+
+It can also be run from the streamlit cloud
+https://ai-resumescreening-mzar.streamlit.app/
