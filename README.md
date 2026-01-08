@@ -3,7 +3,7 @@ Cap stone project for AtomCamp DS &amp; AI
 
 📦 Create Virtual Environment & Install Dependencies
 
-python -m venv venv 
+python -m venv venv
 venv\Scripts\activate   # Windows 
  
 pip install streamlit spacy scikit-learn pandas numpy \ 
