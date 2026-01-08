@@ -2,7 +2,7 @@
 # ai_resume_screening
 Cap stone project for AtomCamp DS &amp; AI 
 
-# How to run this application
+## How to run this application
 There are 2 ways to run and test this application.
 1. Run from the streamlit cloud
 https://ai-resumescreening-mzar.streamlit.app/
@@ -15,7 +15,7 @@ https://ai-resumescreening-mzar.streamlit.app/
 <img width="1897" height="1036" alt="image" src="https://github.com/user-attachments/assets/66d88980-061d-4438-bfff-29bf590b168e" />
 
 
-#Result:
+## Result:
 
 <img width="1790" height="814" alt="image" src="https://github.com/user-attachments/assets/4255197a-0e2a-4f36-89b7-fc43cca215ca" />
 
