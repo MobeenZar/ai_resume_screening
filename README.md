@@ -12,6 +12,9 @@ https://ai-resumescreening-mzar.streamlit.app/
    And then running: http://localhost:8501
 3. There are sample resume in data/sample_rusumes
 
+<img width="1897" height="1036" alt="image" src="https://github.com/user-attachments/assets/66d88980-061d-4438-bfff-29bf590b168e" />
+
+
 
 
 
