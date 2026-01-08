@@ -1,37 +1,7 @@
 # ai_resume_screening
 Cap stone project for AtomCamp DS &amp; AI 
 
-🔹 Phase 1: Project Setup & Architecture  
-✅ 1. Tech Stack
-•	Python 3.10+ 
-•	spaCy 
-•	Sentence-Transformers (MiniLM) 
-•	Scikit-learn 
-•	Streamlit 
-
-📁 2. Project Folder Structure
-ai_resume_screening/ 
-│ 
-├── app/ 
-│   ├── main.py                 # Streamlit app 
-│   ├── matching_engine.py      # Hybrid similarity logic 
-│   ├── resume_parser.py        # PDF/DOCX parsing 
-│   ├── skill_extractor.py      # NLP skill extraction 
-│   ├── text_preprocessing.py   # Cleaning & normalization 
-│ 
-├── data/ 
-│   ├── sample_resumes/ 
-│   ├── job_descriptions/ 
-│ 
-├── models/ 
-│   ├── tfidf_vectorizer.pkl 
-│ 
-├── requirements.txt 
-├── README.md 
-└── .gitignore 
- 
- 
-📦 3. Create Virtual Environment & Install Dependencies 
+📦 Create Virtual Environment & Install Dependencies 
 python -m venv venv 
 venv\Scripts\activate   # Windows 
  
@@ -40,11 +10,7 @@ pip install streamlit spacy scikit-learn pandas numpy \
  
 python -m spacy download en_core_web_sm 
 
-
-
-
- 
-📄 4. requirements.txt 
+📄 requirements.txt 
 streamlit 
 spacy 
 scikit-learn 
