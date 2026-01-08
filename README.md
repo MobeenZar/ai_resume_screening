@@ -10,6 +10,8 @@ https://ai-resumescreening-mzar.streamlit.app/
 2. Run by pulling the docker image from docker hub.
    docker run -d --name ai-resume-screening-app -p 8501:8501 mobeenzar/ai-resume-screening
    And then running: http://localhost:8501
+3. There are sample resume in data/sample_rusumes
+
 
 
 
