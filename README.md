@@ -2,6 +2,8 @@
 # ai_resume_screening
 Cap stone project for AtomCamp DS &amp; AI 
 
+## Please read Project Explanation.docx file. 
+
 ## How to run this application
 There are 2 ways to run and test this application.
 1. Run from the streamlit cloud
